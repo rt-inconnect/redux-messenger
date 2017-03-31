@@ -1,0 +1,12 @@
+.app-messenger {
+  flex-grow: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+@media (max-width: 768px) {
+  .app-messenger {
+    margin: 5px;
+  }
+}

@@ -1,0 +1,68 @@
+.app-messagewall {
+  padding: 0;
+  flex-grow: 1;
+  max-height: calc(100% - 112px);
+  position: relative;
+}
+.app-messagewall__paper {
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  padding: 15px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.app-messagewall__loading {
+  display: block!important;
+  margin: 50px auto;
+}
+.app-messagewall__createdAt {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #c5c5c5;
+  font-size: 11px;
+}
+.app-messagewall__body {
+  height: inherit!important;
+  display: block!important;
+  margin-right: 65px!important;
+}
+.app-messagewall__file {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.app-messagewall__file img {
+  max-width: 300px;
+  max-height: 300px;
+}
+.app-messagewall__filedownload {
+  margin-top: 10px;
+  text-align: center;
+  width: 100px;
+  border: 1px #00bcd4 dashed;
+  word-wrap: break-word;
+  padding: 5px;
+  cursor: pointer;
+}
+.app-messagewall__filedownload svg {
+  height: 65px!important;
+  width: 65px!important;
+  color: #00bcd4!important;
+}
+.app-messagewall__filedownload span {
+  font-size: 11px;
+  display: block;
+}
+.app-messagewall__typing {
+  text-align: center;
+  color: #9c9797;
+}
+
+@media (max-width: 768px) {
+  .app-messagewall {
+    min-height: 300px;
+  }
+}

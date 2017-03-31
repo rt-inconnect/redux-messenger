@@ -1,0 +1,16 @@
+.app-home {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-bottom: 15px;
+}
+.app-home__paper {
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .app-home {
+    margin: 5px;
+  }
+}

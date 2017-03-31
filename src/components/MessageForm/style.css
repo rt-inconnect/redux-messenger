@@ -1,0 +1,42 @@
+.app-messageform {
+  padding: 15px 0;
+}
+.app-messageform__paper {
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.app-messageform__textfield {
+  margin: 0 15px;
+  flex: 1 0 0;
+}
+.app-messageform__controls {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.app-messageform__attachfile {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .app-messageform__avatar {
+    display: none;
+  }
+  .app-messageform__attachfile {
+    margin-bottom: 0;
+  }
+  .app-messageform__controls button {
+    height: 30px!important;
+    width: 30px!important;
+  }
+  .app-messageform__controls button svg {
+    height: 30px!important;
+    width: 16px!important;
+  }
+}

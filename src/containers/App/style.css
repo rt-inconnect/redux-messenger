@@ -1,0 +1,48 @@
+.app {
+  margin: 0 auto;
+  overflow: hidden;
+}
+.app-container {
+  height: calc(100% - 80px);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-top: 10px;
+}
+.app-userlist {
+  flex: 1 0 0;
+  margin-right: 15px;
+  padding-bottom: 15px;
+  min-width: 250px;
+}
+
+@media (min-width: 768px) {
+  .app {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .app {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .app {
+    width: 1170px;
+  }
+}
+@media (max-width: 768px) {
+  .app {
+    overflow: inherit;
+  }
+  .app-container {
+    flex-direction: column;
+  }
+  .app-userlist {
+    margin: 5px;
+  }
+  .app-messenger {
+    margin: 5px;
+  }
+}

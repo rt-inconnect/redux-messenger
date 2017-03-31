@@ -1,0 +1,10 @@
+.app-header__navbar {
+  margin-top: 5px;
+}
+.app-header__card {
+  flex: 4 0 0;
+  background-color: #08b7ce!important;
+}
+.app-header__navbar h1 {
+  cursor: pointer;
+}
